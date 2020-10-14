@@ -55,11 +55,62 @@ How, generics can be beneficial in this scenario.
  - You may get information on the types used in a generic data type at run-time by means of reflection.
 
 
-## References
-[msdn](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/)
+## Constraints in Generics
 
-TODO:
+Force a type parameter to have certain characteristics, for example, we can force it to,
+ - be a reference type or value type
+ - to implement an interface
+ - be derived from a base class
+ - have a default constructor
+ - be (or derived from) another generic type parameter
+
+All of these constraints can be applied using `where` keyword in generics, for example,
+
+```csharp
+    // this restricts that only reference types can be assigned while defining actual type against `T`
+    interface IBuffer<T> where T: class
+    {
+        // data member and member function declaration here
+    }
+```
+
+```csharp
+    // this restricts that only reference which implements `IItem` interface can be assigned while defining actual type against `T`
+    interface IBuffer<T> where T: IItem
+    {
+        // data member and member function declaration here
+    }
+```
+
+```csharp
+    // this restricts that only reference types having a default constructor can be assigned while defining actual type against `T`
+    interface IBuffer<T> where T: new()
+    {
+        // data member and member function declaration here
+    }
+```
+    Note: 
+     - By default you can’t create an instance of a generic `T` using `new` keyword, i.e. `T instance = new T();` is invalid by default. To achieve this, you need to apply `new()` constraint in the generic.
+     - `new()` should be the last keyword to use in generics constraints. `new()` constraints tells that the generic type should have a default constructor.
+
+```csharp
+    // multiple generic types with multiple constraints
+    interface IBuffer<T1, T2> where T1: new(), where T2: class, IItem
+    {
+        // data member and member function declaration here
+    }
+```
+    Note:
+     - When applying multiple constraints on a generic type `class` constraint should be first.
+     - `struct` and `class` both can’t be the type constraint type for a generic.
+
+
+## References
+ * [msdn](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/)
  * [Constraints on type parameters](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters)
+  
+TODO:
+
  * `in`, `out` keyword in generics type parameters.
  * Generics Class
  * Generics Interface
