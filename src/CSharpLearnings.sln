@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YieldDemos", "YieldDemos\YieldDemos.csproj", "{E9873BB9-781C-4421-A4C9-7ADAED2BBF1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsDemos", "GenericsDemos\GenericsDemos.csproj", "{3B6D7CDC-D588-4662-970F-EE2B96936E9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsDemos", "GenericsDemos\GenericsDemos.csproj", "{3B6D7CDC-D588-4662-970F-EE2B96936E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoAndContra_Variance", "CoAndContra_Variance\CoAndContra_Variance.csproj", "{FC2DDC45-9CE3-4E14-A7DB-0F007C955244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3B6D7CDC-D588-4662-970F-EE2B96936E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B6D7CDC-D588-4662-970F-EE2B96936E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B6D7CDC-D588-4662-970F-EE2B96936E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2DDC45-9CE3-4E14-A7DB-0F007C955244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2DDC45-9CE3-4E14-A7DB-0F007C955244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2DDC45-9CE3-4E14-A7DB-0F007C955244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2DDC45-9CE3-4E14-A7DB-0F007C955244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
