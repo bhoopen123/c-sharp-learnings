@@ -89,9 +89,9 @@ All of these constraints can be applied using `where` keyword in generics, for e
         // data member and member function declaration here
     }
 ```
-    Note: 
-     - By default you can’t create an instance of a generic `T` using `new` keyword, i.e. `T instance = new T();` is invalid by default. To achieve this, you need to apply `new()` constraint in the generic.
-     - `new()` should be the last keyword to use in generics constraints. `new()` constraints tells that the generic type should have a default constructor.
+ > *_Note:_* 
+ > * By default you can’t create an instance of a generic `T` using `new` keyword, i.e. `T instance = new T();` is invalid by default. To achieve this, you need to apply `new()` constraint in the generic.
+ > * `new()` should be the last keyword to use in generics constraints. `new()` constraints tells that the generic type should have a default constructor.
 
 ```csharp
     // multiple generic types with multiple constraints
@@ -100,9 +100,10 @@ All of these constraints can be applied using `where` keyword in generics, for e
         // data member and member function declaration here
     }
 ```
-    Note:
-     - When applying multiple constraints on a generic type `class` constraint should be first.
-     - `struct` and `class` both can’t be the type constraint type for a generic.
+ 
+ > *_Note:_*
+ > * When applying multiple constraints on a generic type `class` constraint should be first.
+ > * `struct` and `class` both can’t be the type constraint type for a generic.
 
 
 ## References
