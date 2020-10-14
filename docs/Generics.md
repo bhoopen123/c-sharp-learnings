@@ -5,14 +5,14 @@ Generics are introduced in C# 2.0.
 ## Why use Generics over `Object` datatype?
 We can declare our method parameters as `Object` datatype, as every type in .NET is directly or indirectly inherit from `System.Object` type, so this will also work. Then what are the limitations or down side of declaring everything as an `Object`.
  - Using `Object` will degrade the performance due to boxing and unboxing.
- - If a method has more then one parameters and all parameters are of type `Object`, then it will not completely type safe. One parameter could be if type `int` while other could be of type `string`.
+ - If a method has more then one parameters and all parameters are of type `Object`, then it will not completely type safe because for example one parameter could be of type `int` while other could be of type `string`.
 
 For Example,
 
 ```csharp
     class Comparator
     {
-        // making the parameters of this methods a Object, so any type can be used.
+        // making the parameters of this method of type Objects, so any type can be used.
         public static bool AreEquals(object value1, object value2)
         {
             return value1 == value2;
@@ -42,18 +42,18 @@ How, generics can be beneficial in this scenario.
 
  You write the specifications for the class or the method, with substitute parameters for data types.
  When the compiler encounters a constructor for the class or a function call for the method, it generates code to handle the specific data type. 
- A simple example would help understanding the concept:
 
 ### Features of Generics
 
- Using generics is a technique that enriches your programs in the following ways:
- It helps you to maximize code reuse, type safety, and performance
- You can create generic collection classes.
- The .NET Framework class library contains several new generic collection classes in the System.Collections.Generic namespace. 
- You may use these generic collection classes instead of the collection classes in the System.Collections namespace.
- You can create your own generic interfaces, classes, methods, events and delegates.
- You may create generic classes constrained to enable access to methods on particular data types.
- You may get information on the types used in a generic data type at run-time by means of reflection.
+ Generics is a technique that enriches your programs in the following ways:
+
+ - It helps you to maximize code reusability, type safety, and performance.
+ - The `.NET Framework` class library contains several new generic collection classes in the `System.Collections`.Generic namespace.
+ - You can create generic collection classes and use instead of the collection classes in the `System.Collections` namespace.
+ - You can create your own generic interfaces, class, method, event and delegates.
+ - You may create generic classes constrained to enable access to methods on particular data types.
+ - You may get information on the types used in a generic data type at run-time by means of reflection.
+
 
 ## References
 [msdn](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/)
