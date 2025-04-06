@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Default_Interface_Methods_C#", "Default_Interface_Methods_C#\15_Default_Interface_Methods_C#.csproj", "{266E71F9-1866-4B34-994F-73CF6ACA7AFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDemos", "ArrayDemos\ArrayDemos.csproj", "{9BE31FE9-637C-4075-9C29-526F77451A41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{266E71F9-1866-4B34-994F-73CF6ACA7AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{266E71F9-1866-4B34-994F-73CF6ACA7AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{266E71F9-1866-4B34-994F-73CF6ACA7AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE31FE9-637C-4075-9C29-526F77451A41}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9BE31FE9-637C-4075-9C29-526F77451A41}.Debug|Any CPU.Build.0 = Debug|x86
+		{9BE31FE9-637C-4075-9C29-526F77451A41}.Release|Any CPU.ActiveCfg = Release|x86
+		{9BE31FE9-637C-4075-9C29-526F77451A41}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
