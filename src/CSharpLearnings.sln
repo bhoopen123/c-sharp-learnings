@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Default_Interface_Method
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDemos", "ArrayDemos\ArrayDemos.csproj", "{9BE31FE9-637C-4075-9C29-526F77451A41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Threads_Demos", "16_Threads_Demos\16_Threads_Demos.csproj", "{26610EA3-4AEB-4140-A010-9B34F7F207F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9BE31FE9-637C-4075-9C29-526F77451A41}.Debug|Any CPU.Build.0 = Debug|x86
 		{9BE31FE9-637C-4075-9C29-526F77451A41}.Release|Any CPU.ActiveCfg = Release|x86
 		{9BE31FE9-637C-4075-9C29-526F77451A41}.Release|Any CPU.Build.0 = Release|x86
+		{26610EA3-4AEB-4140-A010-9B34F7F207F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26610EA3-4AEB-4140-A010-9B34F7F207F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26610EA3-4AEB-4140-A010-9B34F7F207F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26610EA3-4AEB-4140-A010-9B34F7F207F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
