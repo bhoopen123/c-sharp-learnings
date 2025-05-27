@@ -12,14 +12,14 @@
 
         public void Run()
         {
-            _mutex?.WaitOne(); // Acquire the mutex lock
 
             for (int i = 0; i < 500000; i++)
             {
+                _mutex?.WaitOne(); // Acquire the mutex lock
                 _counter.Value += i;
+                _mutex?.ReleaseMutex(); // Release the mutex lock
             }
 
-            _mutex?.ReleaseMutex(); // Release the mutex lock
         }
     }
 
@@ -35,12 +35,12 @@
 
         public void Run()
         {
-            _mutex?.WaitOne(); // Acquire the mutex lock
             for (int i = 0; i < 500000; i++)
             {
+                _mutex?.WaitOne(); // Acquire the mutex lock
                 _counter.Value -= i;
+                _mutex?.ReleaseMutex(); // Release the mutex lock
             }
-            _mutex?.ReleaseMutex(); // Release the mutex lock
         }
     }
 
