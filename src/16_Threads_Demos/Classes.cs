@@ -3,43 +3,44 @@
     public class Adder
     {
         Counter _counter;
-        public Adder(Counter counter)
+        Mutex? _mutex; // Declare _mutex as nullable
+        public Adder(Counter counter, Mutex? mutex = null)
         {
             _counter = counter;
+            _mutex = mutex; // Assign the nullable mutex directly
         }
 
         public void Run()
         {
-            for (int i = 0; i < 50000; i++)
+            _mutex?.WaitOne(); // Acquire the mutex lock
+
+            for (int i = 0; i < 500000; i++)
             {
                 _counter.Value += i;
-
-                //Console.WriteLine($"ThreadId : {Thread.CurrentThread.ManagedThreadId}, Hash : {_counter.GetHashCode()}, InitialValue : {_counter.Value}");
-                //Thread.Sleep(100); // Simulate some delay
             }
-            //return initialValue.Value;
+
+            _mutex?.ReleaseMutex(); // Release the mutex lock
         }
     }
 
     public class Subtractor
     {
         Counter _counter;
-
-        public Subtractor(Counter counter)
+        Mutex? _mutex; // Declare _mutex as nullable
+        public Subtractor(Counter counter, Mutex? mutex = null)
         {
             _counter = counter;
+            _mutex = mutex; // Assign the nullable mutex directly
         }
 
         public void Run()
         {
-            for (int i = 0; i < 50000; i++)
+            _mutex?.WaitOne(); // Acquire the mutex lock
+            for (int i = 0; i < 500000; i++)
             {
                 _counter.Value -= i;
-
-                //Console.WriteLine($"ThreadId : {Thread.CurrentThread.ManagedThreadId}, Hash : {_counter.GetHashCode()}, InitialValue : {_counter.Value}");
-                //Thread.Sleep(100); // Simulate some delay
             }
-            //return _counter.Value;
+            _mutex?.ReleaseMutex(); // Release the mutex lock
         }
     }
 

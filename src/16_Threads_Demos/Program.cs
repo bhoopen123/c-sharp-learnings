@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using _16_Threads_Demos;
-using System.Threading;
 
 //var mainThread = Thread.CurrentThread;
 //Console.WriteLine($"Hello, World! on threadId : {mainThread.ManagedThreadId}, threadName : {mainThread.Name}");
@@ -32,9 +31,7 @@ using System.Threading;
 //static int ReadValue(int input)
 //{
 //    Console.WriteLine($"Hello, value = {input} from threadId : {Thread.CurrentThread.ManagedThreadId}, threadName : {Thread.CurrentThread.Name}");
-
 //    Console.WriteLine($"Sleep ThreadId : {Thread.CurrentThread.ManagedThreadId}, threadName : {Thread.CurrentThread.Name}");
-
 //    Thread.Sleep(1000);
 //    return input;
 //}
@@ -44,8 +41,11 @@ using System.Threading;
 Console.WriteLine("Adder and Subtractor implementation");
 Counter counter = new Counter() { Value = 0 };
 
-Adder adder = new Adder(counter);
-Subtractor subtractor = new Subtractor(counter);
+// Create a mutex to synchronize access to the counter
+Mutex mutex = new Mutex(false, "SyncLock"); 
+
+Adder adder = new Adder(counter, mutex);
+Subtractor subtractor = new Subtractor(counter, mutex);
 
 Thread addThread = new Thread(new ThreadStart(adder.Run));
 Thread subThread = new Thread(new ThreadStart(subtractor.Run));
