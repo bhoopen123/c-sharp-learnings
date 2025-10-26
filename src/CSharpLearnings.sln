@@ -19,11 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDemos", "ArrayDemos\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Threads_Demos", "16_Threads_Demos\16_Threads_Demos.csproj", "{26610EA3-4AEB-4140-A010-9B34F7F207F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_SwitchCaseExample", "4_SwitchCaseExample\4_SwitchCaseExample.csproj", "{E14D9B9C-AAAF-4C37-A9DE-805D4FE8CBBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SwitchCaseExample", "4_SwitchCaseExample\04_SwitchCaseExample.csproj", "{E14D9B9C-AAAF-4C37-A9DE-805D4FE8CBBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_ConstantReadonlyStatic", "5_ConstantReadonlyStatic\5_ConstantReadonlyStatic.csproj", "{C3656749-8750-46D9-B4C5-AD54A408DEA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ConstantReadonlyStatic", "5_ConstantReadonlyStatic\05_ConstantReadonlyStatic.csproj", "{C3656749-8750-46D9-B4C5-AD54A408DEA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_DictionaryDemo", "6_DictionaryDemo\6_DictionaryDemo.csproj", "{52766ACB-2CC5-46A4-92BB-D839FF07F407}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_DictionaryDemo", "6_DictionaryDemo\06_DictionaryDemo.csproj", "{52766ACB-2CC5-46A4-92BB-D839FF07F407}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
