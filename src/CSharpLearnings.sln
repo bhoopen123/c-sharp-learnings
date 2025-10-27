@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_DictionaryDemo", "6_Dict
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_TrickyQuestions", "11_TrickyQuestions\11_TrickyQuestions.csproj", "{91DD6F58-327A-4A0A-B3BF-07027740CCFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_RemoveRepeated", "12_RemoveRepeated\12_RemoveRepeated.csproj", "{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{91DD6F58-327A-4A0A-B3BF-07027740CCFE}.Debug|Any CPU.Build.0 = Debug|x86
 		{91DD6F58-327A-4A0A-B3BF-07027740CCFE}.Release|Any CPU.ActiveCfg = Release|x86
 		{91DD6F58-327A-4A0A-B3BF-07027740CCFE}.Release|Any CPU.Build.0 = Release|x86
+		{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
