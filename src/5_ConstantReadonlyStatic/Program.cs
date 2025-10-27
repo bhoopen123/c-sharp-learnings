@@ -1,9 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Text;
-using System.Collections.Generic;
-
-namespace _5_ConstantReadonlyStatic
+﻿namespace _5_ConstantReadonlyStatic
 {
     class Program
     {
@@ -14,7 +9,7 @@ namespace _5_ConstantReadonlyStatic
         //By default constant are static, hence you cannot define a constant type as static.
         //As below
         //public static const string StaticCONSTInt = "55";
-        
+
         //A const field is a compile-time constant. 
         //A constant field or local variable can be initialized with a constant expression 
         //which must be fully evaluated at compile time.
@@ -29,11 +24,11 @@ namespace _5_ConstantReadonlyStatic
         //(byte, short, int, long, char, float, double, decimal, bool), enum, a string literal, or a reference type 
         //which can be assigned with a value null.
         const MyClass obj1 = null;//no error, since its evaluated a compile time
-        //const MyClass obj2 = new MyClass();//gives error, since its evaluated at run time
-        
+                                  //const MyClass obj2 = new MyClass();//gives error, since its evaluated at run time
+
         //Constants can be marked as public, private, protected, internal, or protected internal access modifiers.
         //Use the const modifier when you sure that the value a field or local variable would not be changed.
-        
+
         static void Main(string[] args)
         {
         }
@@ -43,7 +38,7 @@ namespace _5_ConstantReadonlyStatic
     {
         //A readonly field can be initialized either at the time of declaration or with in the constructor of same class. 
         //Therefore, readonly fields can be used for run-time constants.
-       
+
         readonly int X = 10; // initialized at the time of declaration
         readonly int X1;
 
