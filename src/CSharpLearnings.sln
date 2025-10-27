@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ConstantReadonlyStatic",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_DictionaryDemo", "6_DictionaryDemo\06_DictionaryDemo.csproj", "{52766ACB-2CC5-46A4-92BB-D839FF07F407}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_TrickyQuestions", "11_TrickyQuestions\11_TrickyQuestions.csproj", "{91DD6F58-327A-4A0A-B3BF-07027740CCFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{52766ACB-2CC5-46A4-92BB-D839FF07F407}.Debug|Any CPU.Build.0 = Debug|x86
 		{52766ACB-2CC5-46A4-92BB-D839FF07F407}.Release|Any CPU.ActiveCfg = Release|x86
 		{52766ACB-2CC5-46A4-92BB-D839FF07F407}.Release|Any CPU.Build.0 = Release|x86
+		{91DD6F58-327A-4A0A-B3BF-07027740CCFE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{91DD6F58-327A-4A0A-B3BF-07027740CCFE}.Debug|Any CPU.Build.0 = Debug|x86
+		{91DD6F58-327A-4A0A-B3BF-07027740CCFE}.Release|Any CPU.ActiveCfg = Release|x86
+		{91DD6F58-327A-4A0A-B3BF-07027740CCFE}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
