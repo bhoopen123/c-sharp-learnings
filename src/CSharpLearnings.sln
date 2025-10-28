@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_TrickyQuestions", "11_Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_RemoveRepeated", "12_RemoveRepeated\12_RemoveRepeated.csproj", "{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_VerbatimString", "VerbatimString\01_VerbatimString.csproj", "{F83B5AC0-D85F-4930-A56B-709A339C032B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83B5AC0-D85F-4930-A56B-709A339C032B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F83B5AC0-D85F-4930-A56B-709A339C032B}.Debug|Any CPU.Build.0 = Debug|x86
+		{F83B5AC0-D85F-4930-A56B-709A339C032B}.Release|Any CPU.ActiveCfg = Release|x86
+		{F83B5AC0-D85F-4930-A56B-709A339C032B}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
