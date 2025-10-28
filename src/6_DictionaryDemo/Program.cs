@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Runtime.CompilerServices;
-
-namespace _6_DictionaryDemo
+﻿namespace _6_DictionaryDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Dictionary<string, string> dict = new Dictionary<string, string>();
-            dict.Add("key1", "Value1");
-            dict.Add("key2", "Value2");
-            dict.Add("key3", "Value3");
-            dict.Add("key4", "Value4");
-            dict.Add("key5", "Value5");
-            dict.Add("key6", "Value6");
+            Dictionary<string, string> dict = new()
+            {
+                { "key1", "Value1" },
+                { "key2", "Value2" },
+                { "key3", "Value3" },
+                { "key4", "Value4" },
+                { "key5", "Value5" },
+                { "key6", "Value6" }
+            };
 
             //foreach (string key in dict.Keys)
             //{
@@ -75,10 +71,7 @@ namespace _6_DictionaryDemo
             _name = name;
         }
 
-        public bool Equals(Employee x, Employee y)
-        {
-            return (x._name == y._name);
-        }
+        public bool Equals(Employee x, Employee y) => x._name == y._name;
 
         public int GetHashCode(Employee obj)
         {

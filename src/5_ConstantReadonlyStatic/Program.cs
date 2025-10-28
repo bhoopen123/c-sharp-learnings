@@ -42,6 +42,10 @@
         readonly int X = 10; // initialized at the time of declaration
         readonly int X1;
 
+        public MyClass()
+        {
+            X1 = 20; // initialized at run time
+        }
         public MyClass(int x1)
         {
             X1 = x1; // initialized at run time

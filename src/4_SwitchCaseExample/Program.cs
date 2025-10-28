@@ -70,7 +70,7 @@
 
             Console.WriteLine("Coffee sizes: 1=small 2=medium 3=large");
             Console.Write("Please enter your selection: ");
-            string str = Console.ReadLine();
+            string? str = Console.ReadLine();
             int cost = 0;
 
             // Notice the goto statements in cases 2 and 3. The base cost of 25
