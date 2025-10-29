@@ -25,9 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ConstantReadonlyStatic",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_DictionaryDemo", "6_DictionaryDemo\06_DictionaryDemo.csproj", "{52766ACB-2CC5-46A4-92BB-D839FF07F407}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_TrickyQuestions", "11_TrickyQuestions\11_TrickyQuestions.csproj", "{91DD6F58-327A-4A0A-B3BF-07027740CCFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_TrickyQuestions", "11_TrickyQuestions\20_TrickyQuestions.csproj", "{91DD6F58-327A-4A0A-B3BF-07027740CCFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_RemoveRepeated", "12_RemoveRepeated\12_RemoveRepeated.csproj", "{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_RemoveRepeated", "12_RemoveRepeated\21_RemoveRepeated.csproj", "{F391C0CA-4476-4DFA-8E77-AA9CD88C831A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_VerbatimString", "VerbatimString\01_VerbatimString.csproj", "{F83B5AC0-D85F-4930-A56B-709A339C032B}"
 EndProject
@@ -37,7 +37,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_UseOfEnvironmentClass", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_UseOfPARAM", "UseOfPARAM\07_UseOfPARAM.csproj", "{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_ValueTypeContainReferenceType", "ValueTypeContainReferenceType\08_ValueTypeContainReferenceType.csproj", "{F388C08F-BC21-4C16-89AA-02FE30197241}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ValueTypeContainReferenceType", "ValueTypeContainReferenceType\11_ValueTypeContainReferenceType.csproj", "{F388C08F-BC21-4C16-89AA-02FE30197241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_PassValuesAndReference", "PassValuesAndReference\09_PassValuesAndReference.csproj", "{FAC6CC8A-266E-48A8-8B4A-CE9AB63D3AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_PassingReferenceTypeByReference", "PassReferenceByReference\08_PassingReferenceTypeByReference.csproj", "{356126B6-BA17-4C73-BEFD-F2ECD7CA33C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_PassingReferenceTypeByValueType", "PassingReferenceTypeByValueType\10_PassingReferenceTypeByValueType.csproj", "{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +123,18 @@ Global
 		{F388C08F-BC21-4C16-89AA-02FE30197241}.Debug|Any CPU.Build.0 = Debug|x86
 		{F388C08F-BC21-4C16-89AA-02FE30197241}.Release|Any CPU.ActiveCfg = Release|x86
 		{F388C08F-BC21-4C16-89AA-02FE30197241}.Release|Any CPU.Build.0 = Release|x86
+		{FAC6CC8A-266E-48A8-8B4A-CE9AB63D3AC8}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FAC6CC8A-266E-48A8-8B4A-CE9AB63D3AC8}.Debug|Any CPU.Build.0 = Debug|x86
+		{FAC6CC8A-266E-48A8-8B4A-CE9AB63D3AC8}.Release|Any CPU.ActiveCfg = Release|x86
+		{FAC6CC8A-266E-48A8-8B4A-CE9AB63D3AC8}.Release|Any CPU.Build.0 = Release|x86
+		{356126B6-BA17-4C73-BEFD-F2ECD7CA33C6}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{356126B6-BA17-4C73-BEFD-F2ECD7CA33C6}.Debug|Any CPU.Build.0 = Debug|x86
+		{356126B6-BA17-4C73-BEFD-F2ECD7CA33C6}.Release|Any CPU.ActiveCfg = Release|x86
+		{356126B6-BA17-4C73-BEFD-F2ECD7CA33C6}.Release|Any CPU.Build.0 = Release|x86
+		{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}.Debug|Any CPU.Build.0 = Debug|x86
+		{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}.Release|Any CPU.ActiveCfg = Release|x86
+		{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
