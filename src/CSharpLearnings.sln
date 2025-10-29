@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_UseOfEnvironmentClass", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_UseOfPARAM", "UseOfPARAM\07_UseOfPARAM.csproj", "{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_ValueTypeContainReferenceType", "ValueTypeContainReferenceType\08_ValueTypeContainReferenceType.csproj", "{F388C08F-BC21-4C16-89AA-02FE30197241}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}.Debug|Any CPU.Build.0 = Debug|x86
 		{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}.Release|Any CPU.ActiveCfg = Release|x86
 		{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}.Release|Any CPU.Build.0 = Release|x86
+		{F388C08F-BC21-4C16-89AA-02FE30197241}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F388C08F-BC21-4C16-89AA-02FE30197241}.Debug|Any CPU.Build.0 = Debug|x86
+		{F388C08F-BC21-4C16-89AA-02FE30197241}.Release|Any CPU.ActiveCfg = Release|x86
+		{F388C08F-BC21-4C16-89AA-02FE30197241}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
