@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_PassingReferenceTypeByRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_PassingReferenceTypeByValueType", "PassingReferenceTypeByValueType\10_PassingReferenceTypeByValueType.csproj", "{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_Destructors_Example", "Destructors_Example\22_Destructors_Example.csproj", "{31EEB9E2-547C-45C8-A636-9EEB6613A960}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}.Debug|Any CPU.Build.0 = Debug|x86
 		{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}.Release|Any CPU.ActiveCfg = Release|x86
 		{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}.Release|Any CPU.Build.0 = Release|x86
+		{31EEB9E2-547C-45C8-A636-9EEB6613A960}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{31EEB9E2-547C-45C8-A636-9EEB6613A960}.Debug|Any CPU.Build.0 = Debug|x86
+		{31EEB9E2-547C-45C8-A636-9EEB6613A960}.Release|Any CPU.ActiveCfg = Release|x86
+		{31EEB9E2-547C-45C8-A636-9EEB6613A960}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
