@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YieldDemos", "YieldDemos\YieldDemos.csproj", "{E9873BB9-781C-4421-A4C9-7ADAED2BBF1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_YieldDemos", "YieldDemos\14_YieldDemos.csproj", "{E9873BB9-781C-4421-A4C9-7ADAED2BBF1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsDemos", "GenericsDemos\GenericsDemos.csproj", "{3B6D7CDC-D588-4662-970F-EE2B96936E9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_GenericsDemos", "GenericsDemos\12_GenericsDemos.csproj", "{3B6D7CDC-D588-4662-970F-EE2B96936E9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoAndContra_Variance", "CoAndContra_Variance\CoAndContra_Variance.csproj", "{FC2DDC45-9CE3-4E14-A7DB-0F007C955244}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_CoAndContra_Variance", "CoAndContra_Variance\17_CoAndContra_Variance.csproj", "{FC2DDC45-9CE3-4E14-A7DB-0F007C955244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{4D394728-73AC-4956-BA4A-C9B5E3A28613}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_AbstractClass", "AbstractClass\18_AbstractClass.csproj", "{4D394728-73AC-4956-BA4A-C9B5E3A28613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{21DF598B-2885-4279-A895-554F430B576C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Inheritance", "Inheritance\13_Inheritance.csproj", "{21DF598B-2885-4279-A895-554F430B576C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Default_Interface_Methods_C#", "Default_Interface_Methods_C#\15_Default_Interface_Methods_C#.csproj", "{266E71F9-1866-4B34-994F-73CF6ACA7AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDemos", "ArrayDemos\ArrayDemos.csproj", "{9BE31FE9-637C-4075-9C29-526F77451A41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_ArrayDemos", "ArrayDemos\19_ArrayDemos.csproj", "{9BE31FE9-637C-4075-9C29-526F77451A41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Threads_Demos", "16_Threads_Demos\16_Threads_Demos.csproj", "{26610EA3-4AEB-4140-A010-9B34F7F207F8}"
 EndProject
