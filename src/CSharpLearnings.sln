@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_SwitchCaseExample", "4_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ConstantReadonlyStatic", "5_ConstantReadonlyStatic\05_ConstantReadonlyStatic.csproj", "{C3656749-8750-46D9-B4C5-AD54A408DEA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_DictionaryDemo", "6_DictionaryDemo\06_DictionaryDemo.csproj", "{52766ACB-2CC5-46A4-92BB-D839FF07F407}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_DictionaryDemo", "6_DictionaryDemo\35_DictionaryDemo.csproj", "{52766ACB-2CC5-46A4-92BB-D839FF07F407}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_TrickyQuestions", "11_TrickyQuestions\20_TrickyQuestions.csproj", "{91DD6F58-327A-4A0A-B3BF-07027740CCFE}"
 EndProject

@@ -117,7 +117,7 @@ namespace Destructors_Example
     }
 
     //Here the overload of Dispose(bool) does the cleaning up, and all the cleaning up code is written only in this method. 
-    //This method is called by both the destructor and the IDisposable.Dispose(). 
+    //This method is called by both, the destructor and the IDisposable.Dispose(). 
     //We should take care that the Dispose(bool) is not called from any where else except from the IDisposable.Dispose() 
     //and the destructor.
     //When a client calls IDisposable.Dispose(), then the client deliberately wants to clean up the managed and unmanaged 
