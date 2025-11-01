@@ -61,13 +61,13 @@ namespace Destructors_Example
             // 2- Implement Dispose method of IDisposable interface.
 
             // 1- You can force the garbage collector to do clean up by calling the GC.Collect method, but in most cases, 
-               //this should be avoided because it may result in performance issues.
+            //this should be avoided because it may result in performance issues.
             // 2- The IDisposable interface contains only one public method with signature void Dispose(). 
-               //We can implement this method to close or release unmanaged resources such as files, streams, 
-               //and handles held by an instance of the class that implements this interface. 
-               //This method is used for all tasks associated with freeing resources held by an object. 
-               //When implementing this method, objects must seek to ensure that all held resources are freed by propagating 
-               //the call through the containment hierarchy. 
+            //We can implement this method to close or release unmanaged resources such as files, streams, 
+            //and handles held by an instance of the class that implements this interface. 
+            //This method is used for all tasks associated with freeing resources held by an object. 
+            //When implementing this method, objects must seek to ensure that all held resources are freed by propagating 
+            //the call through the containment hierarchy. 
 
             // When we implement IDisposable interface, we require discipline to ensure that Dispose is called properly.
 
@@ -84,7 +84,7 @@ namespace Destructors_Example
             // When the control exits from the using block either by running successfully and reaching the closing braces or by 
             //throwing an exception, the IDispose.Dispose() of MyClass will be executed. Remember the object you instantiate must 
             //implement the System.IDisposable interface. The using statement defines a scope at the end of which an object will be disposed.
-            
+
             #endregion
         }
     }
@@ -159,17 +159,17 @@ namespace Destructors_Example
     // When a destructor executes what is happening behind the scenes is that the destructor implicitly calls 
     // the Object.Finalize method on the object's base class. 
     // Therefore, the preceding destructor code is implicitly translated to:
-        //protected override void Finalize()
-        //{
-        //   try
-        //   {
-        //      // Cleaning up .
-        //   }
-        //   finally
-        //   {
-        //      base.Finalize();
-        //   }
-        //}
+    //protected override void Finalize()
+    //{
+    //   try
+    //   {
+    //      // Cleaning up .
+    //   }
+    //   finally
+    //   {
+    //      base.Finalize();
+    //   }
+    //}
 
 
 
