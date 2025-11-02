@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_ListDemo", "ListDemo\36_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_NullableTypes", "NullableTypes\06_NullableTypes.csproj", "{CACD4BEA-F8A2-4830-95F3-23B1C0CA875F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_paramKeyword", "paramKeyword\12_paramKeyword.csproj", "{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{CACD4BEA-F8A2-4830-95F3-23B1C0CA875F}.Debug|Any CPU.Build.0 = Debug|x86
 		{CACD4BEA-F8A2-4830-95F3-23B1C0CA875F}.Release|Any CPU.ActiveCfg = Release|x86
 		{CACD4BEA-F8A2-4830-95F3-23B1C0CA875F}.Release|Any CPU.Build.0 = Release|x86
+		{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}.Debug|Any CPU.Build.0 = Debug|x86
+		{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}.Release|Any CPU.ActiveCfg = Release|x86
+		{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
