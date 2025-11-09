@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Collections;
 
 namespace TestArrayIndex
 {
@@ -16,14 +12,14 @@ namespace TestArrayIndex
         {
             // declare a array 
             int[] arr = new int[10];
-            int i =0;
+            int i = 0;
             try
             {
                 Console.WriteLine("Printing Array Values :-");
                 for (; i < 15; i++)
                 {
                     arr[i] = i;
-                    Console.WriteLine(string.Format("Index {0} - Value {1}",i.ToString(),arr[i].ToString()));
+                    Console.WriteLine(string.Format("Index {0} - Value {1}", i.ToString(), arr[i].ToString()));
                 }
             }
             catch (IndexOutOfRangeException ex)

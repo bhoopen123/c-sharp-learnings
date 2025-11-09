@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40_IndexersProperty", "Inde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_InterfaceDemo", "InterfaceDemo\26_InterfaceDemo.csproj", "{25FF3F55-F61D-4044-B41E-EC58DCB71437}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "41_TestArrayIndex", "TestArrayIndex\41_TestArrayIndex.csproj", "{39A1A1F3-EE8A-4B25-9A1E-7C2329798E46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{25FF3F55-F61D-4044-B41E-EC58DCB71437}.Debug|Any CPU.Build.0 = Debug|x86
 		{25FF3F55-F61D-4044-B41E-EC58DCB71437}.Release|Any CPU.ActiveCfg = Release|x86
 		{25FF3F55-F61D-4044-B41E-EC58DCB71437}.Release|Any CPU.Build.0 = Release|x86
+		{39A1A1F3-EE8A-4B25-9A1E-7C2329798E46}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{39A1A1F3-EE8A-4B25-9A1E-7C2329798E46}.Debug|Any CPU.Build.0 = Debug|x86
+		{39A1A1F3-EE8A-4B25-9A1E-7C2329798E46}.Release|Any CPU.ActiveCfg = Release|x86
+		{39A1A1F3-EE8A-4B25-9A1E-7C2329798E46}.Release|Any CPU.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
