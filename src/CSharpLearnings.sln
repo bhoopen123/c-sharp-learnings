@@ -69,7 +69,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_StringBuilderDemo", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_staticKeyword", "staticKeyword\25_staticKeyword.csproj", "{22C4CC83-DE4F-4515-ACD2-E6754B7E13C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40_IndexersProperty", "IndexersProperty\40_IndexersProperty.csproj", "{E86D037C-3E68-4468-8FCA-B0ABB565B2EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_IndexersProperty", "IndexersProperty\39_IndexersProperty.csproj", "{E86D037C-3E68-4468-8FCA-B0ABB565B2EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_InterfaceDemo", "InterfaceDemo\26_InterfaceDemo.csproj", "{25FF3F55-F61D-4044-B41E-EC58DCB71437}"
 EndProject
