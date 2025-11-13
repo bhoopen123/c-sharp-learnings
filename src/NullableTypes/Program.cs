@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace NullableTypes
 {
@@ -26,9 +23,11 @@ namespace NullableTypes
         ////string? str = "OOPs";
 
         // in c#, the ? suffix notation is shorthand for creating a variable of the generic System.Nullable<T> sructure type,
-        // it is important to understand that syatem.nullable<T> type provides a set of members that all nullable types can make use of.
-        // For Example , u are able to programatically discover if the nullable variable indeed has been assigned a nul Value 
-        // using the HasValue property or the != operator. The assigned value of a nullable type may be obtained directly or 
+        // for example, int? is a shorthand for System.Nullable<int>
+
+        // it is important to understand that system.nullable<T> type provides a set of members that all nullable types can make use of.
+        // For Example , u are able to programatically discover if the nullable variable indeed has been assigned a null Value 
+        // using the `HasValue` property or the != operator. The assigned value of a nullable type may be obtained directly or 
         // via the Value property..
 
         // Nullable datatypes can be particularly usefull when you are interecting with databases, given that columns in the data table 
@@ -38,9 +37,10 @@ namespace NullableTypes
         {
             Console.WriteLine("***** Fun with nullable Data ******");
             DatabaseReader dr = new DatabaseReader();
-            
+
             // get int from 'Database'
             int? i = dr.GetIntFromDatabase();
+
 
             if (i.HasValue)
             {
@@ -55,7 +55,7 @@ namespace NullableTypes
             // get bool from 'Database'
             bool? b = dr.GetBoolFromDatabase();
 
-            if (b!=null)
+            if (b != null)
             {
                 Console.WriteLine("Value of b is {0} ", b);
             }
@@ -64,14 +64,16 @@ namespace NullableTypes
                 Console.WriteLine("Value of b is undefined.");
             }
 
+            #region The ?? Operator
 
-            // The ?? Operator -- This operator allows you to assign a value to a nullable type if the retrived value is in fact 
-            // null. Example, assume u wish to assign a local variable to 100 if the value returned from GetIntFromDatabase() is null
+            // The ?? Operator -- This operator allows you to assign a value to a nullable type if the retrived value is in fact null.
+            // Example, assume u wish to assign a local variable to 100 if the value returned from GetIntFromDatabase() is null
 
-            // if the value from GetIntFromDatabase() is null 
-            // assign local variable to 100.
+            // if the value from GetIntFromDatabase() is null assign local variable to 100.
             int? mydata = dr.GetIntFromDatabase() ?? 100;
-            Console.WriteLine("Value of myData: {0}",mydata);
+            Console.WriteLine("Value of myData: {0}", mydata);
+
+            #endregion
 
             Console.Read();
         }
