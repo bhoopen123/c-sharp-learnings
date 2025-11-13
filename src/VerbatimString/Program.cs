@@ -49,6 +49,12 @@ aggafggfgf
             int @class = 10;
             Console.WriteLine("Using c# keyword as identifier ", @class);
 
+            string[] @for = { "John", "James", "Joan", "Jamie" };
+            for (int ctr = 0; ctr < @for.Length; ctr++)
+            {
+                Console.WriteLine($"Here is your gift, {@for[ctr]}!");
+            }
+
             #endregion
         }
     }
