@@ -4,10 +4,10 @@
 namespace ValueTypeContainReferenceType
 {
 
-    class Products
+    class Product
     {
-       public int ProductNo;
-        public Products(int Pro_No)
+        public int ProductNo;
+        public Product(int Pro_No)
         {
             ProductNo = Pro_No;
         }
@@ -15,14 +15,14 @@ namespace ValueTypeContainReferenceType
 
     struct ValueType
     {
-       public Products p1;
+        public Product p1;
 
-       public int Rvalue;
-       public int Cvalue;
+        public int Rvalue;
+        public int Cvalue;
 
         public ValueType(int pr)
         {
-            p1 = new Products(pr);
+            p1 = new Product(pr);
 
             Rvalue = 10;
             Cvalue = 20;
@@ -35,8 +35,8 @@ namespace ValueTypeContainReferenceType
         {
             Console.WriteLine("Create object of struct V1");
             ValueType V1 = new ValueType(101);
-            Console.WriteLine("V1.p1.ProductNo = "+V1.p1.ProductNo);
-            Console.WriteLine("V1.Rvalue = "+V1.Rvalue);
+            Console.WriteLine("V1.p1.ProductNo = " + V1.p1.ProductNo);
+            Console.WriteLine("V1.Rvalue = " + V1.Rvalue);
             Console.WriteLine("Assigning V1 to V2 this to another");
             ValueType v2 = V1;
             Console.WriteLine("change the value of Rvalue using V2");
