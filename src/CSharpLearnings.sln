@@ -33,8 +33,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_UseOfConsoleClass", "Use
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_UseOfEnvironmentClass", "UseOfEnvironmentClass\03_UseOfEnvironmentClass.csproj", "{5BB4B6C7-6BD4-4A2F-97C1-105F2A599EE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_UseOfPARAM", "UseOfPARAM\07_UseOfPARAM.csproj", "{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ValueTypeContainReferenceType", "ValueTypeContainReferenceType\11_ValueTypeContainReferenceType.csproj", "{F388C08F-BC21-4C16-89AA-02FE30197241}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_PassValuesAndReference", "PassValuesAndReference\09_PassValuesAndReference.csproj", "{FAC6CC8A-266E-48A8-8B4A-CE9AB63D3AC8}"
@@ -63,8 +61,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_ListDemo", "ListDemo\36_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_NullableTypes", "NullableTypes\06_NullableTypes.csproj", "{CACD4BEA-F8A2-4830-95F3-23B1C0CA875F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_paramKeyword", "paramKeyword\12_paramKeyword.csproj", "{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_StringBuilderDemo", "StringBuilderDemo\24_StringBuilderDemo.csproj", "{B88CA075-DDA0-44F4-B0CB-EBBEA863FA52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_staticKeyword", "staticKeyword\25_staticKeyword.csproj", "{22C4CC83-DE4F-4515-ACD2-E6754B7E13C9}"
@@ -80,6 +76,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_OverLoaded_Indexer_Methods_and_Indexer_on_Interface", "OverLoaded_Indexer_Methods_and_Indexer_on_Interface\29_OverLoaded_Indexer_Methods_and_Indexer_on_Interface.csproj", "{F68B8A8B-88CF-4F38-8356-5F4752A7539F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37_ObjectInCSharp", "objectInCSharp\37_ObjectInCSharp.csproj", "{F0CC265A-F135-4184-B45A-D7A9A04B03E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_paramsKeyword", "07_paramsKeyword\07_paramsKeyword.csproj", "{7E757467-92DA-4A3E-B1FD-3AD326095D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,10 +145,6 @@ Global
 		{5BB4B6C7-6BD4-4A2F-97C1-105F2A599EE2}.Debug|Any CPU.Build.0 = Debug|x86
 		{5BB4B6C7-6BD4-4A2F-97C1-105F2A599EE2}.Release|Any CPU.ActiveCfg = Release|x86
 		{5BB4B6C7-6BD4-4A2F-97C1-105F2A599EE2}.Release|Any CPU.Build.0 = Release|x86
-		{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}.Debug|Any CPU.Build.0 = Debug|x86
-		{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}.Release|Any CPU.ActiveCfg = Release|x86
-		{0C95BFEA-C751-4DB8-A2C8-1101C37B7E0D}.Release|Any CPU.Build.0 = Release|x86
 		{F388C08F-BC21-4C16-89AA-02FE30197241}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{F388C08F-BC21-4C16-89AA-02FE30197241}.Debug|Any CPU.Build.0 = Debug|x86
 		{F388C08F-BC21-4C16-89AA-02FE30197241}.Release|Any CPU.ActiveCfg = Release|x86
@@ -207,10 +201,6 @@ Global
 		{CACD4BEA-F8A2-4830-95F3-23B1C0CA875F}.Debug|Any CPU.Build.0 = Debug|x86
 		{CACD4BEA-F8A2-4830-95F3-23B1C0CA875F}.Release|Any CPU.ActiveCfg = Release|x86
 		{CACD4BEA-F8A2-4830-95F3-23B1C0CA875F}.Release|Any CPU.Build.0 = Release|x86
-		{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}.Debug|Any CPU.Build.0 = Debug|x86
-		{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}.Release|Any CPU.ActiveCfg = Release|x86
-		{D95A2B97-1621-4FC1-9CA5-C56AA89B95AE}.Release|Any CPU.Build.0 = Release|x86
 		{B88CA075-DDA0-44F4-B0CB-EBBEA863FA52}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{B88CA075-DDA0-44F4-B0CB-EBBEA863FA52}.Debug|Any CPU.Build.0 = Debug|x86
 		{B88CA075-DDA0-44F4-B0CB-EBBEA863FA52}.Release|Any CPU.ActiveCfg = Release|x86
@@ -243,6 +233,10 @@ Global
 		{F0CC265A-F135-4184-B45A-D7A9A04B03E2}.Debug|Any CPU.Build.0 = Debug|x86
 		{F0CC265A-F135-4184-B45A-D7A9A04B03E2}.Release|Any CPU.ActiveCfg = Release|x86
 		{F0CC265A-F135-4184-B45A-D7A9A04B03E2}.Release|Any CPU.Build.0 = Release|x86
+		{7E757467-92DA-4A3E-B1FD-3AD326095D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E757467-92DA-4A3E-B1FD-3AD326095D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E757467-92DA-4A3E-B1FD-3AD326095D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E757467-92DA-4A3E-B1FD-3AD326095D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
