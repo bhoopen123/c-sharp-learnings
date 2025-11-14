@@ -35,9 +35,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_UseOfEnvironmentClass", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ValueTypeContainReferenceType", "ValueTypeContainReferenceType\11_ValueTypeContainReferenceType.csproj", "{F388C08F-BC21-4C16-89AA-02FE30197241}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_PassValuesAndReference", "PassValuesAndReference\09_PassValuesAndReference.csproj", "{FAC6CC8A-266E-48A8-8B4A-CE9AB63D3AC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_PassValuesAndReference", "PassValuesAndReference\08_PassValuesAndReference.csproj", "{FAC6CC8A-266E-48A8-8B4A-CE9AB63D3AC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_PassingReferenceTypeByReference", "PassReferenceByReference\08_PassingReferenceTypeByReference.csproj", "{356126B6-BA17-4C73-BEFD-F2ECD7CA33C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_PassingReferenceTypeByReference", "PassReferenceByReference\09_PassingReferenceTypeByReference.csproj", "{356126B6-BA17-4C73-BEFD-F2ECD7CA33C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_PassingReferenceTypeByValueType", "PassingReferenceTypeByValueType\10_PassingReferenceTypeByValueType.csproj", "{FB264D4F-2478-49C7-878C-C7F7EDBDAF30}"
 EndProject
