@@ -42,7 +42,6 @@ aggafggfgf
 
             // you can also insert a double quote into a literal string by doubing the " token,
             Console.WriteLine(@"Cerebus said ""Darr! Pret-ty sun_sets""");
-            Console.Read();
 
             // another usages of "@"
             // to use c# keyword as identifier
@@ -54,6 +53,21 @@ aggafggfgf
             {
                 Console.WriteLine($"Here is your gift, {@for[ctr]}!");
             }
+
+            #endregion
+
+
+            #region String Behaviors
+            Console.WriteLine();
+
+            Console.WriteLine("String behavior");
+            string string1 = "String1";
+            string string2 = string1;
+            Console.WriteLine($"String1 '{string1}', String2 '{string2}'.");
+
+            // change str1
+            string1 = "New String";
+            Console.WriteLine($"After changing String1, String1 '{string1}', String2 '{string2}'.");
 
             #endregion
         }
