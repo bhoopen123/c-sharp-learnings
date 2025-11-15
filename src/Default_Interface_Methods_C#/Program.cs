@@ -2,7 +2,7 @@
 
 using Default_Interface_Methods_C_;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, C# Default Interface Methods!");
 
 ICustomer customer = new SampleCustomer(Guid.NewGuid(), "John Doe", DateTime.UtcNow.AddYears(-3));
 Console.WriteLine(customer.GetLoyaltyDiscount());  // 0.10m

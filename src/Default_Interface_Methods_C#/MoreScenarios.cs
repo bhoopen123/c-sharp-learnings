@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Default_Interface_Methods_C_
+﻿namespace Default_Interface_Methods_C_
 {
     interface IShape
     {
@@ -23,7 +17,7 @@ namespace Default_Interface_Methods_C_
 
     // inherits both interfaces
     // The below code won't compile, instead you get an error:
-    // public class MySemiCircle : IHasStraightEdges, IHasCurvedEdges { }
+    //public class MySemiCircleWithEdges : IHasStraightEdges, IHasCurvedEdges { }
 
     // What following code will print, Its a diamond problem
     // IShape shape = new MySemiCircle(); // cast to IShape
@@ -32,6 +26,7 @@ namespace Default_Interface_Methods_C_
     // Optionally Implement IShape explicitly  👇
     public class MySemiCircle : IHasStraightEdges, IHasCurvedEdges, IShape
     {
+        // Its is required to implement GetName method here to resolve the diamond problem, because both IHasStraightEdges and IHasCurvedEdges provide their own implementations of GetName and MySemiCircle class implements both interfaces.
         public string GetName() => "MySemiCircle"; // 👈 Provide an implementation (required)
     }
 
