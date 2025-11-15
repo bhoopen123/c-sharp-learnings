@@ -60,6 +60,11 @@ namespace YieldDemos
             }
         }
 
+        // You can't use the yield statements in:
+        // methods with in, ref, or out parameters.
+        // lambda expressions and anonymous methods.
+        // `yield return` and `yield break` can not be used in `catch` and `finally` blocks, or in `try` blocks with a corresponding `catch` block. The `yield return` and `yield break` statements can be used in a `try` block with no `catch` blocks, only a finally block.
+
         static IEnumerable<int> Filter()
         {
             //List<int> temp = new List<int>();
