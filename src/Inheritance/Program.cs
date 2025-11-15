@@ -71,23 +71,28 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            ClassB a = new ClassC();
-            a.Print();
+            ClassB objB = new ClassC();
+            objB.Print();           // ClassA
+
+            ClassC classC = new ClassC();
+            classC.Print();         // ClassC
+
+            ClassA classA = new ClassC();
+            classA.Print();         // ClassB
+
+            //ClassB classB = new ClassA(); // compile time error
+
+            ClassA classA1 = new ClassB();
+            classA1.Print();        // ClassB
+
+
 
             Derived d1 = new Derived(20);
+            d1.baseMethod(5);
+            d1.FunBase();
 
-            //string myConnection = "";
-
-            //using (myConnection)
-            //{
-
-            //}
-
-            //d1.baseMethod(5);
-
-            //Base1 b1=new Base1(2);
-            //d1.FunBase();
-            //b1.FunBase();
+            Base1 b1 = new Base1(2);
+            b1.FunBase();
 
             Console.Read();
 

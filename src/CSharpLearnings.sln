@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_CoAndContra_Variance", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_AbstractClass", "AbstractClass\18_AbstractClass.csproj", "{4D394728-73AC-4956-BA4A-C9B5E3A28613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Inheritance", "Inheritance\13_Inheritance.csproj", "{21DF598B-2885-4279-A895-554F430B576C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Inheritance", "Inheritance\12_Inheritance.csproj", "{21DF598B-2885-4279-A895-554F430B576C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Default_Interface_Methods_C#", "Default_Interface_Methods_C#\15_Default_Interface_Methods_C#.csproj", "{266E71F9-1866-4B34-994F-73CF6ACA7AFA}"
 EndProject
