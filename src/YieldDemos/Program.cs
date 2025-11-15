@@ -19,13 +19,21 @@ namespace YieldDemos
             {
                 Console.WriteLine(item);
             }
-
             GalaxyClass.ShowGalaxies();
+
+            Console.WriteLine(string.Join(" ", TakeWhilePositive(new int[] { 2, 3, 4, 5, -1, 3, 4 })));
+            // Output: 2 3 4 5
+
+            Console.WriteLine(string.Join(" ", TakeWhilePositive(new int[] { 9, 8, 7 })));
+            // Output: 9 8 7
 
             Console.WriteLine();
         }
 
-
+        // you use `yield` statement in an iterator to provide the next value or singal the end of the iteration. 
+        // The `yield` statement has two forms: `yield return` and `yield break`.
+        // `yield return`: to provide the next value in iteration.
+        // `yield break`: to explicitly signal the end of the iteration.
         static IEnumerable<int> RunningTotal()
         {
             int runningTotal = 0;
@@ -34,6 +42,21 @@ namespace YieldDemos
             {
                 runningTotal += item;
                 yield return runningTotal;
+            }
+        }
+
+        static IEnumerable<int> TakeWhilePositive(IEnumerable<int> numbers)
+        {
+            foreach (int n in numbers)
+            {
+                if (n > 0)
+                {
+                    yield return n;
+                }
+                else
+                {
+                    yield break;
+                }
             }
         }
 
