@@ -2,7 +2,7 @@
 
 class Program
 {
-    public static int X = 100;
+    public static int x = 100;
 
     static void Main()
     {
@@ -59,6 +59,7 @@ class Program
         int x = 300;
 
         Console.WriteLine(x.ToString() + "  " + x.ToString() + "  " + y.ToString());
+        // Answer : The local variable will get the priority, static variable need to be called out using Program.x
 
         Console.ReadLine();
 
@@ -72,9 +73,10 @@ class Program
         Person p = new Person(); // while in this case, variable type p is allocated into stack and contains the pointer to the memory on the heap.
 
         Console.WriteLine("checking Febonacci");
-        int[] febonacciNumbers = GetFebonacci(10);
+        int TillNumbers = 11;
+        int[] febonacciNumbers = GetFebonacci(TillNumbers);
 
-        Console.WriteLine("Print Numbers");
+        Console.WriteLine($"Print first {TillNumbers} Numbers");
         foreach (var number in febonacciNumbers)
         {
             Console.Write(number + "->");
@@ -86,9 +88,6 @@ class Program
     static int[] GetFebonacci(int tillNumber)
     {
         int[] febonacciNumbers = new int[tillNumber];
-        int previousNumber = 0;
-        int currentNumber = 1;
-        int temp = 0;
 
         if (tillNumber == 0)
         {
@@ -96,17 +95,14 @@ class Program
         }
         if (tillNumber == 1)
         {
-            febonacciNumbers[0] = 1;
-            return febonacciNumbers;
+            return febonacciNumbers; // [0]
         }
 
-        // 
-        for (int i = 0; i < tillNumber; i++)
+        febonacciNumbers[1] = 1;
+
+        for (int i = 2; i < tillNumber; i++)
         {
-            febonacciNumbers[i] = currentNumber;
-            temp = currentNumber;
-            currentNumber = previousNumber + currentNumber;
-            previousNumber = temp;
+            febonacciNumbers[i] = febonacciNumbers[i - 1] + febonacciNumbers[i - 2];
         }
 
         return febonacciNumbers;
