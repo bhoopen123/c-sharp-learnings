@@ -32,10 +32,10 @@ namespace AbstractClass
         //{
         //    Console.WriteLine("Public abstract method Call");   // if u give body of an abstract method then Error will occur
         //}
-       
-        public abstract void absPubMethod();
 
-       // abstract void absPrivateMethod();           // virtual and abstract method cannot be private
+        public abstract void AbsPubMethod();
+
+        // abstract void absPrivateMethod();           // virtual and abstract method cannot be private
 
         public virtual void virtualMethod()
         {
@@ -45,12 +45,13 @@ namespace AbstractClass
 
     class Drived : Abs
     {
-        public override void absPubMethod()
+        public override void AbsPubMethod()
         {
             Console.WriteLine("Public OVERRIDDEN method of abstract class");
         }
-        //public override void absPrivateMethod(      // we must use override keyword when there is virtual or abstract method is 
-        //{                                           // declared in parent class.
+
+        //public override void absPrivateMethod(      // we must use override keyword when there is virtual or abstract method is declared in parent class.
+        //{              
         //    Console.WriteLine("");
         //}
     }
@@ -70,13 +71,13 @@ namespace AbstractClass
     {
         static void Main(string[] args)
         {
-            Drived obj = new Drived();
-            obj.PublicMethod();
+            Drived objDrived = new Drived();
+            objDrived.PublicMethod();
 
-            Abs obj_abs = new Drived();
-            obj_abs.PublicMethod();
+            Abs objAbs = new Drived();
+            objAbs.PublicMethod();
 
-            obj_abs.absPubMethod();
+            objAbs.AbsPubMethod();
             Console.Read();
         }
     }

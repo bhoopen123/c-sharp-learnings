@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_YieldDemos", "YieldDemos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_CoAndContra_Variance", "CoAndContra_Variance\17_CoAndContra_Variance.csproj", "{FC2DDC45-9CE3-4E14-A7DB-0F007C955244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_AbstractClass", "AbstractClass\18_AbstractClass.csproj", "{4D394728-73AC-4956-BA4A-C9B5E3A28613}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_AbstractClass", "AbstractClass\13_AbstractClass.csproj", "{4D394728-73AC-4956-BA4A-C9B5E3A28613}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Inheritance", "Inheritance\12_Inheritance.csproj", "{21DF598B-2885-4279-A895-554F430B576C}"
 EndProject
