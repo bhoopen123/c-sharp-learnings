@@ -1,8 +1,4 @@
-﻿
-using System;
-using System.Collections.Generic;
-
-namespace CoAndContra_Variance
+﻿namespace CoAndContra_Variance
 {
     public interface IOperations<T> : IReadOperations<T>, IWriteOperations<T> where T : class
     {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CoAndContra_Variance
+﻿namespace CoAndContra_Variance
 {
     class Program
     {
@@ -9,13 +6,20 @@ namespace CoAndContra_Variance
         {
             Console.WriteLine("Hello World!");
 
+            // Covariance allows a type to be replaced/substituted with its derived/more specific types
+            // Contravariance allows a type to be replaced/substituted with its base/(more general) types
+            // Invariance means neither Covariance nor Cotravarience
+            // Contravariance is safe in input scenarios and achieved using 'in' keyword
+            // Covariance is safe in output scenarios and achieved using 'out' keyword
+
+
             IOperations<Employee> employeeOperations = new Operations<Employee>();
 
             AddEmployee(employeeOperations);
             // we are achieving this using Conta-variance (i.e. 'in' keyword)
             AddManager(employeeOperations);
 
-            
+
             PrintEmployees(employeeOperations);
             // we are achieving this using Covariance (i.e. 'out' keyword)
             PrintPersons(employeeOperations);
