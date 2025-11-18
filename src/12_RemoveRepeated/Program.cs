@@ -8,15 +8,19 @@ namespace _12_RemoveRepeated
         {
             try
             {
-                List<int[]> arrays = new List<int[]>();
-                arrays.Add(new int[] { 3, 1 });
-                arrays.Add(new int[] { 3, 1, 2 });
-                arrays.Add(new int[] { 3, 1, 1, 2, 1, 4 });
-                arrays.Add(new int[] { 3, 1, 1, 2, 1, 4, 4 });
-                arrays.Add(new int[] { 3, 1, 1, 2, 1, 4, 4, 4 });
-                arrays.Add(new int[] { 3, 1, 1, 2, 2, 1, 1, 4, 4 });
-                arrays.Add(new int[] { 3, 1, 1, 2, 1, 1, 4, 4 });
-                arrays.Add(new int[] { 3, 1, 1, 2, 1, 1, 4, 4, 4 });
+                List<int[]> arrays =
+                [
+                    new int[] { 3, 1 },
+                    new int[] { 3, 1, 2 },
+                    new int[] { 3, 1, 1, 2, 1, 4 },
+                    new int[] { 3, 1, 1, 2, 1, 4, 4 },
+                    new int[] { 3, 1, 1, 2, 1, 4, 4, 4 },
+                    new int[] { 3, 1, 1, 2, 2, 1, 1, 4, 4 },
+                    new int[] { 3, 1, 1, 2, 1, 1, 4, 4 },
+                    new int[] { 3, 1, 1, 2, 1, 1, 4, 4, 4 },
+                    new int[] { 3, 3, 1, 1, 2, 1, 4, 4, 4 },
+                ];
+
                 for (int i = 0; i < arrays.Count; i++)
                 {
                     int[] array = arrays[i];
