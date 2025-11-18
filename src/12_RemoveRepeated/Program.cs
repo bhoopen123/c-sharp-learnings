@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using _21_RemoveRepeated;
 
 namespace _12_RemoveRepeated
 {
@@ -17,7 +16,7 @@ namespace _12_RemoveRepeated
                 arrays.Add(new int[] { 3, 1, 1, 2, 1, 4, 4, 4 });
                 arrays.Add(new int[] { 3, 1, 1, 2, 2, 1, 1, 4, 4 });
                 arrays.Add(new int[] { 3, 1, 1, 2, 1, 1, 4, 4 });
-                arrays.Add(new int[] { 3, 1, 1, 2, 1, 1, 4, 4,4 });
+                arrays.Add(new int[] { 3, 1, 1, 2, 1, 1, 4, 4, 4 });
                 for (int i = 0; i < arrays.Count; i++)
                 {
                     int[] array = arrays[i];
@@ -26,7 +25,8 @@ namespace _12_RemoveRepeated
                     PrintArray(array);
                     Console.WriteLine();
 
-                    RemoveRepeated(ref array);
+                    //RemoveRepeated(ref array);
+                    array = Approach1.RemoveRepeated(array);
 
                     Console.WriteLine("After removing repeated");
                     PrintArray(array);
