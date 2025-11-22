@@ -61,8 +61,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_NullableTypes", "Nullabl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_StringBuilderDemo", "StringBuilderDemo\24_StringBuilderDemo.csproj", "{B88CA075-DDA0-44F4-B0CB-EBBEA863FA52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_staticKeyword", "staticKeyword\25_staticKeyword.csproj", "{22C4CC83-DE4F-4515-ACD2-E6754B7E13C9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39_IndexersProperty", "IndexersProperty\39_IndexersProperty.csproj", "{E86D037C-3E68-4468-8FCA-B0ABB565B2EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_InterfaceDemo", "InterfaceDemo\26_InterfaceDemo.csproj", "{25FF3F55-F61D-4044-B41E-EC58DCB71437}"
@@ -201,10 +199,6 @@ Global
 		{B88CA075-DDA0-44F4-B0CB-EBBEA863FA52}.Debug|Any CPU.Build.0 = Debug|x86
 		{B88CA075-DDA0-44F4-B0CB-EBBEA863FA52}.Release|Any CPU.ActiveCfg = Release|x86
 		{B88CA075-DDA0-44F4-B0CB-EBBEA863FA52}.Release|Any CPU.Build.0 = Release|x86
-		{22C4CC83-DE4F-4515-ACD2-E6754B7E13C9}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{22C4CC83-DE4F-4515-ACD2-E6754B7E13C9}.Debug|Any CPU.Build.0 = Debug|x86
-		{22C4CC83-DE4F-4515-ACD2-E6754B7E13C9}.Release|Any CPU.ActiveCfg = Release|x86
-		{22C4CC83-DE4F-4515-ACD2-E6754B7E13C9}.Release|Any CPU.Build.0 = Release|x86
 		{E86D037C-3E68-4468-8FCA-B0ABB565B2EE}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{E86D037C-3E68-4468-8FCA-B0ABB565B2EE}.Debug|Any CPU.Build.0 = Debug|x86
 		{E86D037C-3E68-4468-8FCA-B0ABB565B2EE}.Release|Any CPU.ActiveCfg = Release|x86
