@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace InterfaceDemo
 {
@@ -13,7 +10,7 @@ namespace InterfaceDemo
         // Interfaces are contracts that declare what they do, not how they do it.
         // Interfaces are intended to describe behavior, not implementation.
         // If you want to declare fields, then you need to create a base (possibly abstract) class.
-       
+
         void IMethod1();
         int data { get; set; }            // we can declare a property in Interface, but cannot define it.
     }
@@ -49,7 +46,7 @@ namespace InterfaceDemo
             }
         }
     }
-    
+
     class Program
     {
         static void Main(string[] args)
@@ -61,7 +58,7 @@ namespace InterfaceDemo
             Console.WriteLine("call the method of the Interface that has Implemented explicitly");
             ((IBase1)obj).IMethod1();       // If we give the body of the method explicitly then to call that method we hae to type caste the
                                             // object with that interface, then only we can access that method of that interface
-            // another way to call the method of interface that has implemented explicitly in the class
+                                            // another way to call the method of interface that has implemented explicitly in the class
 
             Console.WriteLine("\n  another way to call the method of Explicitly implemented Interface");
             IBase2 Iobj;
@@ -77,6 +74,4 @@ namespace InterfaceDemo
 
         }
     }
-
-
 }
