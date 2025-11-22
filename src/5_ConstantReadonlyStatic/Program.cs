@@ -31,6 +31,20 @@
 
         static void Main(string[] args)
         {
+            single instance;
+
+            instance = single.GetInstance(); // to access the object of that class we have to call the method GetInstance
+                                             // single ss = new single();
+
+            if (instance == null)
+            {
+
+                Console.WriteLine("Instance Not created");
+            }
+            else
+            {
+                Console.WriteLine("Instance created");
+            }
         }
     }
 
@@ -74,5 +88,59 @@
         //If the static keyword is applied to a class, all the members of the class must be static.
         //Static methods can only access static members of same class. Static properties are used to get or set the value of static fields of a class.
         //Static constructor can't be parameterized and public. Static constructor is always a private default constructor which is used to initialize static fields of the class.
+    }
+
+    public class single
+    {
+        public static single _instance;
+        // single()
+        //{
+        //}
+        private single()  // we will create a private constructor of that class so that nobody can create  the object of that 
+        { }              // class directly..  
+        public static single GetInstance()
+        {
+            if (_instance == null)
+            {
+                _instance = new single();
+                return _instance;
+            }
+            else
+            {
+                return _instance;
+            }
+        }
+
+        // this is to check whether how we can access the Public Static Data Members & Member Functions 
+        // & how too access public Non-Static Data Members & Member Functions 
+        //outside the class..
+
+        StaticDemo obj = new StaticDemo();
+
+        public void CheckClass()
+        {
+            StaticDemo.StaticVar = 60; //the public static Data Members & Member Functions can
+            StaticDemo.StaticFun();    // be accessed only with the className outside the class.
+
+            obj.PublicVar = 100;       // while by the object of the class we can access
+            obj.NonStaticFun();         //  the public nonStatic Data Members & Member Functions.
+        }
+    }
+
+
+    public class StaticDemo
+    {
+        public static int StaticVar;
+        public int PublicVar;
+
+        public static void StaticFun()
+        {
+            StaticVar = 50;
+        }
+
+        public void NonStaticFun()
+        {
+
+        }
     }
 }
