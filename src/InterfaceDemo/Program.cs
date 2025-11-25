@@ -12,7 +12,7 @@ namespace InterfaceDemo
         // If you want to declare fields, then you need to create a base (possibly abstract) class.
 
         void IMethod1();
-        int data { get; set; }            // we can declare a property in Interface, but cannot define it.
+        int data { get; set; }     // we can declare a property in Interface, but cannot define it.
     }
 
     public interface IBase2
@@ -22,7 +22,7 @@ namespace InterfaceDemo
 
     public class Class1 : IBase1, IBase2
     {
-        void IBase1.IMethod1()                  // giving the body to the method explicitly to that interface
+        void IBase1.IMethod1()     // giving the body to the method explicitly to that interface
         {
             Console.WriteLine("IBase1 Interface Method1");
         }

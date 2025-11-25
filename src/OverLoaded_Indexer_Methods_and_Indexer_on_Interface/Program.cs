@@ -2,32 +2,8 @@
 
 namespace OverLoaded_Indexer_Methods_and_Indexer_on_Interface
 {
-    public interface IStringContainer<key>
-    {
-        string this[int key] { get; set; }
-    }
-
-    public class MyStrings : IStringContainer<int>
-    {
-        string[] strs = { "First", "Second" };
-
-        public string this[int key]
-        {
-            get
-            {
-                return strs[key];
-            }
-            set
-            {
-                strs[key] = value;
-            }
-        }
-    }
-
-
     class Program
     {
-
         public static void Add(int one, int two)
         {
             Console.WriteLine(one + two);
@@ -71,6 +47,28 @@ namespace OverLoaded_Indexer_Methods_and_Indexer_on_Interface
             Console.WriteLine(" Obj2[0] = {0} and obj2[1] = {1}", obj2[0], obj2[1]);
 
             Console.ReadLine();
+        }
+    }
+
+    public interface IStringContainer<key>
+    {
+        string this[int key] { get; set; }
+    }
+
+    public class MyStrings : IStringContainer<int>
+    {
+        string[] strs = { "First", "Second" };
+
+        public string this[int key]
+        {
+            get
+            {
+                return strs[key];
+            }
+            set
+            {
+                strs[key] = value;
+            }
         }
     }
 
