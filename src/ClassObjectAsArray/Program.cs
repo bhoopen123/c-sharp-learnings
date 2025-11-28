@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ClassObjectAsArray
 {
@@ -228,7 +225,7 @@ namespace ClassObjectAsArray
 
     public enum PropertyType
     {
-        SingleFamily,TownHouse, Apartment, Unknown
+        SingleFamily, TownHouse, Apartment, Unknown
     };
 
     public class RentalProperty
@@ -240,7 +237,7 @@ namespace ClassObjectAsArray
             get { return nbr; }
             set { nbr = value; }
         }
-        
+
         private PropertyType tp;
 
         public PropertyType TypeOfProperty
@@ -248,7 +245,7 @@ namespace ClassObjectAsArray
             get { return tp; }
             set { tp = value; }
         }
-        
+
         private short bd;
 
         public short BedRooms
@@ -256,7 +253,7 @@ namespace ClassObjectAsArray
             get { return bd; }
             set { bd = value; }
         }
-        
+
         private float bt;
 
         public float BathRooms
@@ -264,7 +261,7 @@ namespace ClassObjectAsArray
             get { return bt; }
             set { bt = value; }
         }
-        
+
         private double rnt;
 
         public double MonthlyRent
@@ -273,11 +270,11 @@ namespace ClassObjectAsArray
             set { rnt = value; }
         }
 
-        public RentalProperty(long PropNbr=0,
+        public RentalProperty(long PropNbr = 0,
                                 PropertyType Type = PropertyType.Unknown,
                                 short Beds = 0,
-                                float Baths=0.0F,
-                                double Rent=0D)
+                                float Baths = 0.0F,
+                                double Rent = 0D)
         {
             PropNbr = nbr;
             Type = PropertyType.Unknown;

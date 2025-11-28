@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ListDemo
 {
@@ -16,11 +14,11 @@ namespace ListDemo
             listInt.Add(30);
             listInt.Add(40);
 
-            Console.WriteLine("Number of members in the list : {0}",listInt.Count);
+            Console.WriteLine("Number of members in the list : {0}", listInt.Count);
 
             int value = listInt[0];
 
-            Console.WriteLine("value at index 0 is : {0}",value);
+            Console.WriteLine("value at index 0 is : {0}", value);
 
             int i = listInt.Find(findMethod);
 
@@ -38,7 +36,7 @@ namespace ListDemo
 
         }
 
-       public static bool findMethod(int val)
+        public static bool findMethod(int val)
         {
             return (val > 30);
         }
