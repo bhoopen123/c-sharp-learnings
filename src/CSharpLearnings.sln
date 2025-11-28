@@ -41,8 +41,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_GenericsBasics", "Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_GenericsDelegate", "GenericsDelegate\31_GenericsDelegate.csproj", "{18149A9F-49FA-4AA5-AA6A-661BC5419AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_GenericsDemos", "GenericsDemos\32_GenericsDemos.csproj", "{B44E40E6-B607-2225-64BB-D100761D386B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_IEnumerable_IEnumerator", "IEnumerable_IEnumerator\33_IEnumerable_IEnumerator.csproj", "{38E57568-5BB7-4788-B0F7-FA4FE1E038C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_ICollection_Demo", "ICollection_Demo\34_ICollection_Demo.csproj", "{0CA70306-792C-43CA-9DAF-0D866A39F65E}"
@@ -157,10 +155,6 @@ Global
 		{18149A9F-49FA-4AA5-AA6A-661BC5419AA4}.Debug|Any CPU.Build.0 = Debug|x86
 		{18149A9F-49FA-4AA5-AA6A-661BC5419AA4}.Release|Any CPU.ActiveCfg = Release|x86
 		{18149A9F-49FA-4AA5-AA6A-661BC5419AA4}.Release|Any CPU.Build.0 = Release|x86
-		{B44E40E6-B607-2225-64BB-D100761D386B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B44E40E6-B607-2225-64BB-D100761D386B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B44E40E6-B607-2225-64BB-D100761D386B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B44E40E6-B607-2225-64BB-D100761D386B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{38E57568-5BB7-4788-B0F7-FA4FE1E038C1}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{38E57568-5BB7-4788-B0F7-FA4FE1E038C1}.Debug|Any CPU.Build.0 = Debug|x86
 		{38E57568-5BB7-4788-B0F7-FA4FE1E038C1}.Release|Any CPU.ActiveCfg = Release|x86
